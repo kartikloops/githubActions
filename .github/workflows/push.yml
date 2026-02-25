@@ -1,0 +1,8 @@
+name: Push CI/CD
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Step
+        run: echo "A  demo buid"
